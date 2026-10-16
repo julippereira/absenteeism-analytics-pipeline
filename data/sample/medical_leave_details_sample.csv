@@ -1,0 +1,11 @@
+﻿codigoSequencialLicenca,matricula,cids,descricaoMotivo,nomeUnidade,dataFicha,dataInicioAfastamento,dataFimAfastamento,dataSolicitacao,dataCriacao,dataUltimaAlteracao,diasAfastados,horasAfastado,tipoAtestado,tipoLicenca,abonado,acidenteTrajeto,imprimirCid,imprimirMotivo,imprimirSolicitante,existeLicencaMesmoMotivo60Dias,ingestion_timestamp
+LIC00001,RH0006,F41.1,Generalized anxiety disorder,Unit A,2026-06-10,2026-06-10,2026-06-15,2026-06-09,2026-06-10,2026-06-15,5,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00002,RH0007,K29.7,"Gastritis, unspecified",Unit B,2026-06-19,2026-06-19,2026-06-25,2026-06-18,2026-06-19,2026-06-25,6,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00003,RH0008,R51.9,"Headache, unspecified",Unit C,2026-06-28,2026-06-28,2026-07-05,2026-06-27,2026-06-28,2026-07-05,7,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00004,RH0009,Z29.0,Isolation,Unit D,2026-07-07,2026-07-07,2026-07-11,2026-07-06,2026-07-07,2026-07-11,4,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00005,RH0010,J06.9,Acute upper respiratory infection,Unit E,2026-07-16,2026-07-16,2026-07-21,2026-07-15,2026-07-16,2026-07-21,5,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00006,RH0011,M54.5,Low back pain,Unit A,2026-07-25,2026-07-25,2026-07-31,2026-07-24,2026-07-25,2026-07-31,6,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00007,RH0012,F41.1,Generalized anxiety disorder,Unit B,2026-08-03,2026-08-03,2026-08-10,2026-08-02,2026-08-03,2026-08-10,7,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00008,RH0013,K29.7,"Gastritis, unspecified",Unit C,2026-08-12,2026-08-12,2026-08-16,2026-08-11,2026-08-12,2026-08-16,4,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00009,RH0014,R51.9,"Headache, unspecified",Unit D,2026-08-21,2026-08-21,2026-08-26,2026-08-20,2026-08-21,2026-08-26,5,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
+LIC00010,RH0015,Z29.0,Isolation,Unit E,2026-08-30,2026-08-30,2026-09-05,2026-08-29,2026-08-30,2026-09-05,6,,Medical Leave,Extended Leave,1,0,0,0,0,0,2026-10-15 06:15:00
