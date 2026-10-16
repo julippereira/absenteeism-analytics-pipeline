@@ -1,0 +1,11 @@
+﻿CID Capítulo,CID Categoria,CID Grupo,CID Subcategoria,CID Subgrupo,id_categoria,id_cid,subcategoria
+Health Group A,Category A.1,Analytical Group A,Subcategory A.1,Subgroup A.1,HGA,HGA-01,HGA-01
+Health Group A,Category A.2,Analytical Group A,Subcategory A.2,Subgroup A.2,HGA,HGA-02,HGA-02
+Health Group B,Category B.1,Analytical Group B,Subcategory B.1,Subgroup B.1,HGB,HGB-01,HGB-01
+Health Group B,Category B.2,Analytical Group B,Subcategory B.2,Subgroup B.2,HGB,HGB-02,HGB-02
+Health Group C,Category C.1,Analytical Group C,Subcategory C.1,Subgroup C.1,HGC,HGC-01,HGC-01
+Health Group C,Category C.2,Analytical Group C,Subcategory C.2,Subgroup C.2,HGC,HGC-02,HGC-02
+Health Group D,Category D.1,Analytical Group D,Subcategory D.1,Subgroup D.1,HGD,HGD-01,HGD-01
+Health Group D,Category D.2,Analytical Group D,Subcategory D.2,Subgroup D.2,HGD,HGD-02,HGD-02
+Other Health Groups,Other Category,Other Analytical Groups,Other Subcategory,Other Subgroup,OTH,OTHER-01,OTHER-01
+Not Reported,Not Reported,Not Reported,Not Reported,Not Reported,NRI,NO_ICD,NO_ICD
