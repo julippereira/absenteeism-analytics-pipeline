@@ -1,5 +1,15 @@
 # 🩺 Absenteeism Analytics Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-Data%20Engineering-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-Notebooks%20%26%20Workflows-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-Curated%20MERGE-173F67?style=flat-square)
+![Power BI](https://img.shields.io/badge/Power%20BI-Semantic%20Model-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Analytics-5B5B5B?style=flat-square)
+![Synthetic Data](https://img.shields.io/badge/Data-Synthetic-2A9D8F?style=flat-square)
+![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-7B61A8?style=flat-square)
+![Portfolio Ready](https://img.shields.io/badge/Status-Portfolio%20Ready-4FA86D?style=flat-square)
+
 End-to-end data engineering and business intelligence project for governed absenteeism and occupational-health analytics.
 
 The solution integrates controlled APIs and historical datasets, standardizes heterogeneous records with PySpark, persists curated dimensions and facts in Delta Lake, orchestrates dependencies with Databricks workflows, and delivers an interactive Power BI analytical model.
