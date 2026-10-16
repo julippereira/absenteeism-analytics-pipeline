@@ -16,6 +16,7 @@
 
 import json
 import re
+import unicodedata
 from pathlib import Path
 from typing import Dict, Iterable
 
@@ -82,8 +83,13 @@ occupational_accident_table = qualified_table(
 
 
 def sanitize_column_name(column_name: str) -> str:
-    """Convert a source column name to lowercase snake_case."""
-    normalized = re.sub(r"[^A-Za-z0-9]+", "_", column_name.strip())
+    """Convert accented or punctuated source names to lowercase snake_case."""
+    ascii_name = (
+        unicodedata.normalize("NFKD", column_name.strip())
+        .encode("ascii", "ignore")
+        .decode("ascii")
+    )
+    normalized = re.sub(r"[^A-Za-z0-9]+", "_", ascii_name)
     normalized = re.sub(r"_+", "_", normalized).strip("_")
     return normalized.lower()
 
