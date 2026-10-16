@@ -1,0 +1,157 @@
+{
+  "project": {
+    "name": "absenteeism-analytics-pipeline",
+    "technical_name": "soc_abs",
+    "environment": "development",
+    "timezone": "America/Sao_Paulo"
+  },
+  "security": {
+    "secret_provider": "databricks-secret-scope",
+    "secret_scope": "occupational-health-api",
+    "fail_on_missing_secret": true,
+    "allow_plaintext_secrets": false,
+    "redact_sensitive_logs": true,
+    "log_response_body": false,
+    "log_request_parameters": false,
+    "mask_fields": [
+      "api_key",
+      "company_id",
+      "employee_id",
+      "employee_registration",
+      "tax_id",
+      "employee_name",
+      "diagnosis_code",
+      "diagnosis_description"
+    ],
+    "tls_verification": true
+  },
+  "api": {
+    "base_url_secret_key": "api-base-url",
+    "company_id_secret_key": "company-id",
+    "work_company_id_secret_key": "work-company-id",
+    "request_method_default": "GET",
+    "output_format": "json",
+    "timeout_seconds": 60,
+    "max_retries": 3,
+    "retry_backoff_seconds": 2,
+    "request_interval_seconds": 2,
+    "max_window_days": 30,
+    "verify_ssl": true,
+    "accepted_status_codes": [
+      200
+    ]
+  },
+  "extractions": {
+    "employee_master": {
+      "enabled": true,
+      "request_method": "POST",
+      "report_code_secret_key": "employee-master-report-code",
+      "api_key_secret_key": "employee-master-api-key",
+      "target_table": "employee_master_source",
+      "load_strategy": "full_refresh"
+    },
+    "employee_disability": {
+      "enabled": true,
+      "request_method": "POST",
+      "report_code_secret_key": "employee-disability-report-code",
+      "api_key_secret_key": "employee-disability-api-key",
+      "target_table": "employee_disability_source",
+      "load_strategy": "full_refresh"
+    },
+    "absenteeism": {
+      "enabled": true,
+      "request_method": "GET",
+      "report_code_secret_key": "absenteeism-report-code",
+      "api_key_secret_key": "absenteeism-api-key",
+      "target_table": "absenteeism_source",
+      "load_strategy": "full_refresh",
+      "historical_start_date": "YYYY-MM-DD",
+      "end_date_rule": "yesterday"
+    },
+    "medical_leave": {
+      "enabled": true,
+      "request_method": "GET",
+      "report_code_secret_key": "medical-leave-report-code",
+      "api_key_secret_key": "medical-leave-api-key",
+      "target_table": "medical_leave_source",
+      "load_strategy": "full_refresh",
+      "historical_start_date": "YYYY-MM-DD",
+      "end_date_rule": "yesterday"
+    },
+    "medical_leave_details": {
+      "enabled": true,
+      "request_method": "GET",
+      "report_code_secret_key": "medical-leave-details-report-code",
+      "api_key_secret_key": "medical-leave-details-api-key",
+      "target_table": "medical_leave_details_source",
+      "load_strategy": "full_refresh_batched",
+      "historical_start_date": "YYYY-MM-DD",
+      "end_date_rule": "yesterday",
+      "deduplication_key": "leave_id"
+    },
+    "occupational_accident": {
+      "enabled": false,
+      "request_method": "GET",
+      "report_code_secret_key": "occupational-accident-report-code",
+      "api_key_secret_key": "occupational-accident-api-key",
+      "target_table": "occupational_accident_source",
+      "load_strategy": "full_refresh",
+      "historical_start_date": "YYYY-MM-DD",
+      "end_date_rule": "yesterday"
+    }
+  },
+  "storage": {
+    "catalog": "portfolio_catalog",
+    "schema": "occupational_health",
+    "format": "delta",
+    "allow_schema_evolution": true,
+    "allow_schema_overwrite": false,
+    "partition_columns": {
+      "fact_absenteeism": [
+        "absence_year"
+      ],
+      "fact_occupational_accident": [
+        "accident_year"
+      ]
+    }
+  },
+  "tables": {
+    "sources": {
+      "employee_master": "employee_master_source",
+      "employee_disability": "employee_disability_source",
+      "absenteeism": "absenteeism_source",
+      "medical_leave": "medical_leave_source",
+      "medical_leave_details": "medical_leave_details_source",
+      "occupational_accident": "occupational_accident_source",
+      "historical_absenteeism": "historical_absenteeism_source",
+      "organizational_perimeter": "organizational_perimeter_source"
+    },
+    "curated": {
+      "employee_dimension": "dim_employee",
+      "icd_dimension": "dim_icd",
+      "absenteeism_fact": "fact_absenteeism",
+      "occupational_accident_fact": "fact_occupational_accident"
+    }
+  },
+  "data_quality": {
+    "fail_on_empty_required_source": true,
+    "fail_on_schema_mismatch": true,
+    "reject_duplicate_business_keys": true,
+    "quarantine_invalid_records": true,
+    "quarantine_table_suffix": "_quarantine"
+  },
+  "privacy": {
+    "contains_personal_data": true,
+    "contains_health_data": true,
+    "publish_real_data": false,
+    "use_synthetic_data_in_repository": true,
+    "remove_notebook_outputs_before_commit": true,
+    "prohibited_public_fields": [
+      "tax_id",
+      "employee_name",
+      "employee_registration",
+      "medical_notes",
+      "raw_diagnosis_description"
+    ]
+  }
+}
