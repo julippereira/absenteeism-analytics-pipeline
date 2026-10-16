@@ -1,0 +1,19 @@
+﻿MATRICULARH,MATRICULAFUNCIONARIO,CPF,NOME,NOMECARGO,RHCENTROCUSTOUNIDADE,NOMEUNIDADE,NOMESETOR,SEXO,IDADE,ingestion_timestamp
+RH0001,EMP0001,SYNTH00000000001,Ana Almeida,Production Analyst,CC001,Curitiba,Production,1,23,2026-10-15 06:00:00
+RH0002,EMP0002,SYNTH00000000002,Bruno Barbosa,Maintenance Technician,CC002,Curitiba,Maintenance,2,25,2026-10-15 06:00:00
+RH0003,EMP0003,SYNTH00000000003,Carla Costa,Logistics Assistant,CC003,Sorocaba,Warehouse,1,27,2026-10-15 06:00:00
+RH0004,EMP0004,SYNTH00000000004,Diego Dias,Financial Analyst,CC004,Contagem,Finance,2,29,2026-10-15 06:00:00
+RH0005,EMP0005,SYNTH00000000005,Elisa Esteves,Process Engineer,CC005,Piracicaba,Product Development,1,31,2026-10-15 06:00:00
+RH0006,EMP0006,SYNTH00000000006,Felipe Ferreira,Quality Technician,CC001,Curitiba,Production,2,33,2026-10-15 06:00:00
+RH0007,EMP0007,SYNTH00000000007,Gabriela Gomes,Production Analyst,CC002,Curitiba,Maintenance,1,35,2026-10-15 06:00:00
+RH0008,EMP0008,SYNTH00000000008,Henrique Lima,Maintenance Technician,CC003,Sorocaba,Warehouse,2,37,2026-10-15 06:00:00
+RH0009,EMP0009,SYNTH00000000009,Isabela Martins,Logistics Assistant,CC004,Contagem,Finance,1,39,2026-10-15 06:00:00
+RH0010,EMP0010,SYNTH00000000010,Joao Nunes,Financial Analyst,CC005,Piracicaba,Product Development,2,41,2026-10-15 06:00:00
+RH0011,EMP0011,SYNTH00000000011,Karina Oliveira,Process Engineer,CC001,Curitiba,Production,1,43,2026-10-15 06:00:00
+RH0012,EMP0012,SYNTH00000000012,Lucas Pereira,Quality Technician,CC002,Curitiba,Maintenance,2,45,2026-10-15 06:00:00
+RH0013,EMP0013,SYNTH00000000013,Marina Ramos,Production Analyst,CC003,Sorocaba,Warehouse,1,47,2026-10-15 06:00:00
+RH0014,EMP0014,SYNTH00000000014,Nicolas Silva,Maintenance Technician,CC004,Contagem,Finance,2,49,2026-10-15 06:00:00
+RH0015,EMP0015,SYNTH00000000015,Olivia Souza,Logistics Assistant,CC005,Piracicaba,Product Development,1,51,2026-10-15 06:00:00
+RH0016,EMP0016,SYNTH00000000016,Paulo Teixeira,Financial Analyst,CC001,Curitiba,Production,2,53,2026-10-15 06:00:00
+RH0017,EMP0017,SYNTH00000000017,Renata Vieira,Process Engineer,CC002,Curitiba,Maintenance,1,55,2026-10-15 06:00:00
+RH0018,EMP0018,SYNTH00000000018,Samuel Moraes,Quality Technician,CC003,Sorocaba,Warehouse,2,57,2026-10-15 06:00:00

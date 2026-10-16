@@ -1,0 +1,25 @@
+﻿CODIGO_SEQUENCIAL_ATESTADO,MATRICULA_FUNC,CID_PRINCIPAL,DESCRICAO_CID,UNIDADE,DT_INICIO_ATESTADO,DT_FIM_ATESTADO,DT_FICHA_ATESTADO,DT_CRIACAO,HORA_INICIO_ATESTADO,HORA_FIM_ATESTADO,DIAS_AFASTADOS,HORAS_AFASTADO,TIPO_ATESTADO,TIPO_LICENCA,MOTIVO_LICENCA,ingestion_timestamp
+ABS00001,RH0001,J06.9,Acute upper respiratory infection,Curitiba,2026-05-08,2026-05-10,2026-05-08,2026-05-08 08:00:00,,,2,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00002,RH0002,M54.5,Low back pain,Curitiba,2026-05-13,2026-05-16,2026-05-13,2026-05-13 08:00:00,,,3,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00003,RH0003,F41.1,Generalized anxiety disorder,Sorocaba,2026-05-18,,2026-05-18,2026-05-18 08:00:00,08:00,12:00,,04:00,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00004,RH0004,K29.7,"Gastritis, unspecified",Contagem,2026-05-23,2026-05-24,2026-05-23,2026-05-23 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00005,RH0005,R51.9,"Headache, unspecified",Piracicaba,2026-05-28,2026-05-29,2026-05-28,2026-05-28 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00006,RH0006,Z29.0,Isolation,Curitiba,2026-06-02,2026-06-04,2026-06-02,2026-06-02 08:00:00,,,2,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00007,RH0007,,,Curitiba,2026-06-07,2026-06-10,2026-06-07,2026-06-07 08:00:00,,,3,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00008,RH0008,J06.9,Acute upper respiratory infection,Sorocaba,2026-06-12,,2026-06-12,2026-06-12 08:00:00,08:00,12:00,,04:00,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00009,RH0009,M54.5,Low back pain,Contagem,2026-06-17,2026-06-18,2026-06-17,2026-06-17 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00010,RH0010,F41.1,Generalized anxiety disorder,Piracicaba,2026-06-22,2026-06-23,2026-06-22,2026-06-22 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00011,RH0011,K29.7,"Gastritis, unspecified",Curitiba,2026-06-27,2026-06-29,2026-06-27,2026-06-27 08:00:00,,,2,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00012,RH0012,R51.9,"Headache, unspecified",Curitiba,2026-07-02,2026-07-05,2026-07-02,2026-07-02 08:00:00,,,3,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00013,RH0013,Z29.0,Isolation,Sorocaba,2026-07-07,,2026-07-07,2026-07-07 08:00:00,08:00,12:00,,04:00,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00014,RH0014,,,Contagem,2026-07-12,2026-07-13,2026-07-12,2026-07-12 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00015,RH0015,J06.9,Acute upper respiratory infection,Piracicaba,2026-07-17,2026-07-18,2026-07-17,2026-07-17 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00016,RH0016,M54.5,Low back pain,Curitiba,2026-07-22,2026-07-24,2026-07-22,2026-07-22 08:00:00,,,2,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00017,RH0017,F41.1,Generalized anxiety disorder,Curitiba,2026-07-27,2026-07-30,2026-07-27,2026-07-27 08:00:00,,,3,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00018,RH0018,K29.7,"Gastritis, unspecified",Sorocaba,2026-08-01,,2026-08-01,2026-08-01 08:00:00,08:00,12:00,,04:00,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00019,RH0001,R51.9,"Headache, unspecified",Curitiba,2026-08-06,2026-08-07,2026-08-06,2026-08-06 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00020,RH0002,Z29.0,Isolation,Curitiba,2026-08-11,2026-08-12,2026-08-11,2026-08-11 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00021,RH0003,,,Sorocaba,2026-08-16,2026-08-18,2026-08-16,2026-08-16 08:00:00,,,2,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00022,RH0004,J06.9,Acute upper respiratory infection,Contagem,2026-08-21,2026-08-24,2026-08-21,2026-08-21 08:00:00,,,3,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00023,RH0005,M54.5,Low back pain,Piracicaba,2026-08-26,,2026-08-26,2026-08-26 08:00:00,08:00,12:00,,04:00,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
+ABS00024,RH0006,F41.1,Generalized anxiety disorder,Curitiba,2026-08-31,2026-09-01,2026-08-31,2026-08-31 08:00:00,,,1,,Medical Certificate,Health Leave,Synthetic example,2026-10-15 06:10:00
