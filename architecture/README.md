@@ -538,19 +538,11 @@ The correspondence between synthetic health groups and original monitored classi
 
 # Architecture diagrams
 
-## `solution-architecture.png`
+## Solution architecture
 
-The solution architecture diagram should show:
+![Solution architecture](solution-architecture.png)
 
-```text
-Sources
-    -> Databricks ingestion
-    -> Delta source layer
-    -> PySpark transformations
-    -> curated Delta tables
-    -> Power BI semantic model
-    -> analytical dashboard
-```
+The solution architecture diagram presents the main platforms, processing layers, security controls, orchestration components, and analytical consumption flow.
 
 The diagram should also represent:
 
@@ -559,19 +551,12 @@ The diagram should also represent:
 - data-quality controls;
 - synthetic publication boundary.
 
-## `data-flow.png`
+## Data flow
 
-The data-flow diagram should emphasize dataset movement and dependencies:
+![End-to-end data flow](data-flow.png)
 
-```text
-employee sources -> dim_employee
-health sources -> dim_icd
-absence sources + dimensions -> fact_absenteeism
-accident source + employee dimension -> fact_occupational_accident
-curated tables -> Power BI
-```
 
-The diagrams must not contain production workspace names, catalogs, schemas, endpoints, credentials, employee values, or company-specific identifiers.
+The data-flow diagram details the lineage between governed sources, Delta source tables, PySpark transformations, curated dimensions and facts, and the Power BI semantic model.
 
 ---
 
